@@ -1,0 +1,82 @@
+body {
+    background: rgb(0, 81, 255);
+}
+
+.fundo {
+    background: white;
+    max-width: 700px;
+    min-width: 200px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px black;
+    
+}
+h1 {
+    font-size: 30pt;
+    font-family: 'Anton', sans-serif;
+}
+.dica {
+    margin-top: 50px;
+    font: bolder 12.6pt Arial;
+}
+.number {
+    margin-top: 15px;
+    width: 250px;
+    height: 45px;
+    font-size: 25pt;
+    border: 1px solid black;
+
+
+}
+.error {
+    animation: inputanime 0.4s;
+}
+@keyframes inputanime {
+    0% {
+        margin-left: 15px;
+        border: 1px solid red;
+        background: rgba(255, 0, 0, 0.356);
+    }
+    20% {
+        margin-left: 50px;
+        border: 1px solid red;
+        background: rgba(255, 0, 0, 0.356);
+    }
+    50% {
+        margin: -15pxs;
+        border: 1px solid red;
+        background: rgba(255, 0, 0, 0.356);
+    }
+
+    100% {
+        margin-left: -50px;
+        border: 1px solid red;
+        background: rgba(255, 0, 0, 0.356);
+    }
+}
+
+.submit {
+    width: 65px;
+    height: 45px;
+    margin-top: 15px;
+}
+
+.reload {
+    width: 95px;
+    height: 45px;
+    margin-top: 25px;
+    border-radius: 10px;
+
+}
+.reload:hover {
+    background: green;
+    border: none;
+    
+}
+.resultado {
+    font: normal 15pt Arial; 
+    text-align: justify;
+    margin: 15px; 
+}
